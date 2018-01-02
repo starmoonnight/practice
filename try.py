@@ -1,4 +1,5 @@
 # See README.md for rules
+
 def main():
     vowels = ['a','e','i','o','u']
     sentence=input('Translate phrase into Pig Latin:')
