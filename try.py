@@ -1,8 +1,9 @@
+# See README.md for rules
 def main():
     vowels = ['a','e','i','o','u']
     sentence=input('Translate phrase into Pig Latin:')
     sentence=sentence.split()
-    
+
     for k in range(len(sentence)):
         word = sentence[k]
         if word[0] in vowels:
